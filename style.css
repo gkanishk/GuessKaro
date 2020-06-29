@@ -14,8 +14,8 @@ h2{
     margin-bottom: 30px;
 }
 .cardC{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -53,6 +53,8 @@ h2{
 #dataCon{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 }
 #showResult{
@@ -61,6 +63,15 @@ width: max-content;
 padding: 1vh;
 border-radius: 8px;
 font-weight: 700;
+}
+#btn{
+    margin-top: 10px;
+    width: max-content;
+    color:black;
+    background-color:#FAEBD7;
+    border-radius:25px;
+    padding: 5px;
+    font-weight:700;
 }
 @media screen and (max-width:600px){
     .cardC{
